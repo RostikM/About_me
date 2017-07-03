@@ -2,14 +2,8 @@
      font-family: 'Bree Serif', serif;
     }
     
-    html,body {
-     width: 100%;
-     height: 100%;
-    }
-    
-    body {
+    html, body {
      background-image: url(background_001.jpg);
-    
     }
     
     .toolbar li {
@@ -33,4 +27,6 @@
      background-color: green;
      color: white;
     }
-    
+    .aboutme {
+     center;
+    }
