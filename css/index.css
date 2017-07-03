@@ -30,3 +30,9 @@
     .aboutme {
      center;
     }
+    
+    .pickabout {
+     position: fixed;
+     center;
+     
+    }
