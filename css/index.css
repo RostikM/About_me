@@ -10,8 +10,9 @@
     }
     
     .header {
-     background-image: url(.../images/ground_head.png) no-repeat center fixed;
+     background-image: url(.../images/ground_head.png) no-repeat center;
      max-width: 980px;
+     background-size: cover;
      margin: 0 auto;
     }
     .toolbar li {
