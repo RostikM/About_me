@@ -2,10 +2,18 @@
      font-family: 'Bree Serif', serif;
     }
     
-    html, body {
-     background-image: url(background_001.jpg);
+    body {
+     background-image: url(.../images/background_001.jpg) no-repeat center fixed;
+     background-size: cover;
+     max-width: 980px;
+     margin: 0 auto;
     }
     
+    .header {
+     background-image: url(.../images/ground_head.png) no-repeat center fixed;
+     max-width: 980px;
+     margin: 0 auto;
+    }
     .toolbar li {
      display: inline;
      background-color: rgb(255, 255, 128);
@@ -16,23 +24,32 @@
      font-size: 1em;
     }
     
-    img {
-     position: fixed;
-     left: 0px;
-     top: 0px;
-     z-index: -1;
+    .myphoto {
+     display: inline;
+     border-radius: 8px;
+     padding: 5px;
+     width: 450px;
     }
     
     h1 {
      background-color: green;
+     background-size: cover;
      color: white;
-    }
-    .aboutme {
-     center;
+     text-align: center;
     }
     
-    .pickabout {
-     position: fixed;
-     center;
-     
+    .aboutme {
+     float: left;
+    }
+    
+    .title {
+     text-align: center;
+    }
+    
+    #repair-carousel img {
+     height: 575px;
+    }
+    
+    #repair-carousel div.item {
+     margin: 0 auto;
     }
