@@ -1,20 +1,28 @@
     * {
-     font-family: 'Bree Serif', serif;
+     font-family:'Bitter', serif;
+     font-size: 20px;
+     color: #1616a0;
     }
     
-    body {
-     background-image: url(.../images/background_001.jpg) no-repeat center fixed;
+    html, body {
+     background: url(../images/background_001.jpg) no-repeat center fixed;
      background-size: cover;
      max-width: 980px;
      margin: 0 auto;
     }
     
-    .header {
-     background-image: url(.../images/ground_head.png) no-repeat center;
+    #footer {
+     background: url(../images/background_002.jpg) no-repeat center;
      max-width: 980px;
+     max-height: 480px;
      background-size: cover;
      margin: 0 auto;
     }
+    
+    .section { 
+     display:center;
+    }
+    
     .toolbar li {
      display: inline;
      background-color: rgb(255, 255, 128);
@@ -45,6 +53,7 @@
     
     .title {
      text-align: center;
+     
     }
     
     #repair-carousel img {
@@ -54,3 +63,19 @@
     #repair-carousel div.item {
      margin: 0 auto;
     }
+    
+    .fishing {
+     width: auto;
+     border-bottom-style: groove;
+     max-width: 980px;
+    }
+    
+    #cts {
+     background-color: #f2ed60;
+     text-align: center;
+    }
+    
+    p {
+    text-indent: 60px;
+    }
+    
